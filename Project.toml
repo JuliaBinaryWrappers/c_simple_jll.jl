@@ -1,0 +1,6 @@
+name = "c_simple_jll"
+uuid = "be362d4c-08a2-5912-9862-49c0dc3dc593"
+version = "1.2.3"
+
+[deps]
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
