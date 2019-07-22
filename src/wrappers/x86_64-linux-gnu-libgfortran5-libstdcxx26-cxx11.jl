@@ -9,9 +9,9 @@ LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
 
 # Relative path to `libc_simple`
-const libc_simple_relpath = "lib/libc_simple.so"
+const libc_simple_splitpath = ["lib", "libc_simple.so"]
 
-# This will be filled out by __init__() for all products
+# This will be filled out by __init__() for all products, as it must be done at runtime
 libc_simple_path = ""
 
 # libc_simple-specific global declaration
@@ -23,9 +23,9 @@ const libc_simple = "libc_simple.so"
 
 
 # Relative path to `c_simple`
-const c_simple_relpath = "bin/c_simple"
+const c_simple_splitpath = ["bin", "c_simple"]
 
-# This will be filled out by __init__() for all products
+# This will be filled out by __init__() for all products, as it must be done at runtime
 c_simple_path = ""
 
 # c_simple-specific global declaration
@@ -60,27 +60,4 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-
-    global libc_simple_path = abspath(joinpath(prefix, libc_simple_relpath))
-
-    # Manually `dlopen()` this right now so that future invocations
-    # of `ccall` with its `SONAME` will find this path immediately.
-    global libc_simple_handle = dlopen(libc_simple_path)
-    push!(LIBPATH_list, dirname(libc_simple_path))
-
-    global c_simple_path = abspath(joinpath(prefix, c_simple_relpath))
-
-    push!(PATH_list, dirname(c_simple_path))
-    # Filter out duplicate and empty entries in our PATH and LIBPATH entries
-    filter!(!isempty, unique!(PATH_list))
-    filter!(!isempty, unique!(LIBPATH_list))
-    global PATH = join(PATH_list, ':')
-    global LIBPATH = join(LIBPATH_list, ':')
-
-    # Add each element of LIBPATH to our DL_LOAD_PATH (necessary on platforms
-    # that don't honor our "already opened" trick)
-    for lp in LIBPATH_list
-        push!(DL_LOAD_PATH, lp)
-    end
-end  # __init__()
 
