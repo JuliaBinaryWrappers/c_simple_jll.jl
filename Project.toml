@@ -3,4 +3,5 @@ uuid = "be362d4c-08a2-5912-9862-49c0dc3dc593"
 version = "1.2.3"
 
 [deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
