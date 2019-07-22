@@ -11,115 +11,115 @@ os = "linux"
     sha256 = "c0da8944427a87cd4a8cf7273b76e1d17d737d087cb7b24f4b4a7da027f8171b"
     url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-linux-gnu-libgfortran5-libstdcxx26-cxx11.tar.gz"
 [[c_simple]]
-arch = "i686"
-git-tree-sha1 = "42f7400a29e39b98a28cd33bbf795c220e6a1ee6"
+arch = "x86_64"
+git-tree-sha1 = "0ad689ea83f92f49ba3fb433305c5172533d5df1"
+libc = "glibc"
+os = "linux"
+
+    [[c_simple.download]]
+    sha256 = "64f37a5bd721dfdae86e2e56f87fea8e5a67d695c8fba0910f23468d380ff2a2"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-linux-gnu.tar.gz"
+[[c_simple]]
+arch = "armv7l"
+git-tree-sha1 = "590a840f7188cfadb3c88271798adfefd0cd93a2"
 libc = "musl"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "b2bf7c945ed4458ca5999e4fe14bb4b1a06294409795a2b2327716fe8d3e155e"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.i686-linux-musl.tar.gz"
-[[c_simple]]
-arch = "x86_64"
-git-tree-sha1 = "7d6ec16b48908cf1b330318b3558a1864392d0f2"
-libc = "glibc"
-os = "linux"
-
-    [[c_simple.download]]
-    sha256 = "a0f9167498b07151c557e70d8e0b6e2304a69ef90c08a8878f3a33f917371863"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-linux-gnu.tar.gz"
-[[c_simple]]
-arch = "x86_64"
-git-tree-sha1 = "b71b32844c99e6769622a97838d3f125cb4d95c2"
-os = "freebsd"
-
-    [[c_simple.download]]
-    sha256 = "e0bd663470757fb3f131a408f2e023e13b94387adef831336441e010e315f8dc"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-unknown-freebsd11.1.tar.gz"
-[[c_simple]]
-arch = "aarch64"
-git-tree-sha1 = "893f1f00e6bacb2265a4315304400d376bb56ea5"
-libc = "glibc"
-os = "linux"
-
-    [[c_simple.download]]
-    sha256 = "ecd7ad7a83a920085ddefd1b69c79e0a25b2963e35072134fcfd565e0f4af80a"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "5e842074ee96bbe324361e43cae8a3a03a133437dbde517bd2f9f27b87e5d39f"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.arm-linux-musleabihf.tar.gz"
 [[c_simple]]
 arch = "i686"
-git-tree-sha1 = "0c375d7c625d27df8532697cb3aa6d17313f80c3"
+git-tree-sha1 = "b48914abb7d42afba7902839b1c3f23a52249d0d"
+os = "windows"
+
+    [[c_simple.download]]
+    sha256 = "df0c987b6b2b0bb3c4283d862aa3740ede0ada724a978fa90a61f481c80add94"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.i686-w64-mingw32.tar.gz"
+[[c_simple]]
+arch = "i686"
+git-tree-sha1 = "0540e576bd9b75107bbdddb24d43d6ca86ac0259"
 libc = "glibc"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "a6789293a0e1ff975f05c114b30119a04f3158a30f58064301abb960f8a72ed6"
+    sha256 = "5f2ae050eed32aa663ee8e21ba8591e46dfe142d4666dc916db3c7481ddc0064"
     url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.i686-linux-gnu.tar.gz"
 [[c_simple]]
 arch = "x86_64"
-git-tree-sha1 = "fffb8e9a2229a583109f31788ef65f8d345b142e"
-os = "windows"
-
-    [[c_simple.download]]
-    sha256 = "403c2726c1d9dd72af8cf9166b487bfafaabfee4c5369cf953bb75b55a534f7c"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-w64-mingw32.tar.gz"
-[[c_simple]]
-arch = "x86_64"
-git-tree-sha1 = "30c37e41658758037d759e3b04ed5e4ea72703cf"
-os = "macos"
-
-    [[c_simple.download]]
-    sha256 = "0f1490a89f6715b4ca6af08cd79e651250ebfeeca0470c06289241ca2afaaa3b"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-apple-darwin14.tar.gz"
-[[c_simple]]
-arch = "x86_64"
-git-tree-sha1 = "997fa085fdb246226fe6d5014126f5db6ab65236"
+git-tree-sha1 = "2fc73bbbb20d5b75b7efb19b70e067cd3aef6b83"
 libc = "musl"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "f5a76996c46772e6af557e242e73a50466791fb36c79f7f88a9b8b54b917df7d"
+    sha256 = "ad1d2fe614e52ca5824d6e26fc57b8adb331b2228f3725c5c4a50d4d22eb2946"
     url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-linux-musl.tar.gz"
 [[c_simple]]
-arch = "i686"
-git-tree-sha1 = "51173bfbd4b38e8bdf4e68b74a9fbd44d83fa271"
-os = "windows"
-
-    [[c_simple.download]]
-    sha256 = "12a348573ce36be58cb65194f353a3cf2dd966a390c55f9ebe88ecc93337e9ed"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.i686-w64-mingw32.tar.gz"
-[[c_simple]]
-arch = "armv7l"
-git-tree-sha1 = "4a56bb184e350cba3199ee28e3832bcb6fcd4537"
+arch = "aarch64"
+git-tree-sha1 = "e34382372aa587a6e3c1b3d978495a826aded488"
 libc = "glibc"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "092452829c74bf53a0399e2508a355a73ad73a56f5226bf3b3b159f9719162d8"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.arm-linux-gnueabihf.tar.gz"
-[[c_simple]]
-arch = "powerpc64le"
-git-tree-sha1 = "a9d8401080fabd39fc1453e19bca1767360daf4a"
-libc = "glibc"
-os = "linux"
-
-    [[c_simple.download]]
-    sha256 = "6462124cdf80b2ebb5e44b702bf1034067d0fff43ef8bc4ba728c12819b1a0dd"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "8db16b5c606d869893f8459350fd43e93fb1a75ffbdac5f216c7ca1d7a075dd6"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.aarch64-linux-gnu.tar.gz"
 [[c_simple]]
 arch = "aarch64"
-git-tree-sha1 = "f769dd7b33b309ca30991a5b29c7a049fa08d37e"
+git-tree-sha1 = "224b371126952975fc43d79715e7af325fd4d218"
 libc = "musl"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "ea8723278a390bd1b112a309211bd47b6a08c2c6378644295ac19984ed648a71"
+    sha256 = "c808892e805809ca102ceb0564576074fd5098336d62abbcc475ce6542a35aeb"
     url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.aarch64-linux-musl.tar.gz"
 [[c_simple]]
 arch = "armv7l"
-git-tree-sha1 = "a3c8ffe4930dd7940e5068954661c44537fb1826"
+git-tree-sha1 = "aba3b0a561392b4696bb0a1dc5e349d1ed8fa8cf"
+libc = "glibc"
+os = "linux"
+
+    [[c_simple.download]]
+    sha256 = "16c6292dde6bb1b0c131c2f343772c5a78722daf1723d36449e86f7bcf2bdc55"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.arm-linux-gnueabihf.tar.gz"
+[[c_simple]]
+arch = "x86_64"
+git-tree-sha1 = "0f8b8af5fdc00982e1f3ae1247031048a544e355"
+os = "windows"
+
+    [[c_simple.download]]
+    sha256 = "e7ce8bb94e3628a53ba6b14ff7ed38043231c5f1b4aaf0215b820cb5fb7c3955"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-w64-mingw32.tar.gz"
+[[c_simple]]
+arch = "powerpc64le"
+git-tree-sha1 = "531a1a490955c71db16f45e28f928671b7b2128e"
+libc = "glibc"
+os = "linux"
+
+    [[c_simple.download]]
+    sha256 = "d79ff08ef53ca40a046b5aafd70bbc6249e91b9a12e1421fa9ab2f148d6a9306"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.powerpc64le-linux-gnu.tar.gz"
+[[c_simple]]
+arch = "x86_64"
+git-tree-sha1 = "c7554d9325374dbb9f62ea07331c64612d9c57fd"
+os = "macos"
+
+    [[c_simple.download]]
+    sha256 = "0dc6e97cd736442f58f3e5bf31f6e2308248de10923c71560d6b4439f00a57e7"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-apple-darwin14.tar.gz"
+[[c_simple]]
+arch = "x86_64"
+git-tree-sha1 = "9ff5477c404e1195278b78d9f28e455cbc0f1d62"
+os = "freebsd"
+
+    [[c_simple.download]]
+    sha256 = "16d8b9d3108fcb31e693a58ef3d4ff3f508cdd5a44ccbf39b6c7f209806c6bde"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-unknown-freebsd11.1.tar.gz"
+[[c_simple]]
+arch = "i686"
+git-tree-sha1 = "15220a8b637fe63f6fae969691fb83ad1f0cdb01"
 libc = "musl"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "da1e3ff47a53e307ee11c48ac6a5d82a93f097e0d53e1750aae41673f4973056"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.arm-linux-musleabihf.tar.gz"
+    sha256 = "1fdbc48ce22ca21907261a8daa730cae2e6dc6e9c41abcd4ea725ec0ab966e77"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.i686-linux-musl.tar.gz"
