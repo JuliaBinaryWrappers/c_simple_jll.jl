@@ -1,12 +1,12 @@
 [[c_simple]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1ed0c92113ae7799732f69b952edc9930a520d86"
+git-tree-sha1 = "68b248b3693fa7e016e755cb5716794c8ac3985c"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 libstdcxx_version = "3.4.26"
 os = "linux"
 
     [[c_simple.download]]
-    sha256 = "6ec8b818ec0b52b62fefcd4d3b9cb67bbbd7988604595ef53a61da5caa6cbdfc"
-    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+7/c_simple.v1.2.3.x86_64-linux-gnu-libgfortran5-libstdcxx26-cxx11.tar.gz"
+    sha256 = "441dffd0d9c83aadfe58a13aa6dfd661651bed9035724fefedc142babae76364"
+    url = "https://github.com/JuliaBinaryWrappers/c_simple_jll.jl/releases/download/c_simple+v1.2.3+0/c_simple.v1.2.3.x86_64-linux-gnu-libgfortran5-libstdcxx26-cxx11.tar.gz"
