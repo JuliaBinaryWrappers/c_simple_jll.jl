@@ -32,7 +32,7 @@ function c_simple(f::Function; adjust_PATH::Bool = true, adjust_LIBPATH::Bool = 
             env_mapping[LIBPATH_env] = LIBPATH
         end
     end
-    withenv(env_mapping) do
+    withenv(env_mapping...) do
         f(c_simple_path)
     end
 end
