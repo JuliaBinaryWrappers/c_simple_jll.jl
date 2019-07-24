@@ -2,19 +2,7 @@ module c_simple_jll
 using Pkg.BinaryPlatforms, Pkg.Artifacts, Libdl
 
 platforms = Platform[
-    Linux(:x86_64, libc=:glibc),
-    Linux(:armv7l, libc=:musl, call_abi=:eabihf),
-    Windows(:i686),
-    Linux(:i686, libc=:glibc),
-    Linux(:x86_64, libc=:musl),
-    Linux(:aarch64, libc=:glibc),
-    Linux(:aarch64, libc=:musl),
-    Linux(:armv7l, libc=:glibc, call_abi=:eabihf),
-    Windows(:x86_64),
-    Linux(:powerpc64le, libc=:glibc),
-    MacOS(:x86_64),
-    FreeBSD(:x86_64),
-    Linux(:i686, libc=:musl),
+    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(libgfortran_version=v"5.0.0", libstdcxx_version=v"3.4.26", cxxstring_abi=:cxx11)),
 ]
 
 # From the available options, choose the best platform
