@@ -2,19 +2,19 @@ module c_simple_jll
 using Pkg.BinaryPlatforms, Pkg.Artifacts, Libdl
 
 platforms = Platform[
-    Linux(:i686, libc=:glibc),
+    Linux(:armv7l, libc=:glibc, call_abi=:eabihf),
+    FreeBSD(:x86_64),
+    MacOS(:x86_64),
     Linux(:powerpc64le, libc=:glibc),
     Linux(:i686, libc=:musl),
+    Linux(:x86_64, libc=:musl),
+    Linux(:i686, libc=:glibc),
     Windows(:i686),
-    Linux(:aarch64, libc=:musl),
-    MacOS(:x86_64),
-    Windows(:x86_64),
-    Linux(:armv7l, libc=:glibc, call_abi=:eabihf),
     Linux(:x86_64, libc=:glibc),
-    FreeBSD(:x86_64),
+    Windows(:x86_64),
+    Linux(:aarch64, libc=:musl),
     Linux(:aarch64, libc=:glibc),
     Linux(:armv7l, libc=:musl, call_abi=:eabihf),
-    Linux(:x86_64, libc=:musl),
 ]
 
 # From the available options, choose the best platform
