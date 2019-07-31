@@ -1,5 +1,5 @@
 name = "c_simple_jll"
-uuid = "be362d4c-08a2-5912-9862-49c0dc3dc593"
+uuid = "b078fad2-87bf-50cd-80f2-782f4d4db074"
 version = "1.2.3+0"
 
 [deps]
